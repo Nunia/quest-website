@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<title>Owl Carousel</title>
+
+<body>
+
+
+
+
+
+
+
+
+    <div class="owl-carousel owl-theme">
+        <div class="item"><img src="img\profile\Mrr Nunia.jpg"></div>
+        <div class="item"><img src="img\profile\Mrr Nunia.jpg"></div>
+        <div class="item"><img src="img\profile\Mrr Nunia.jpg"></div>
+        <div class="item"><img src="img\profile\Mrr Nunia.jpg"></div>
+        <div class="item"><img src="img\profile\Mrr Nunia.jpg"></div>
+        <div class="item"><img src="img\profile\Mrr Nunia.jpg"></div>
+        <div class="item"><img src="img\profile\Mrr Nunia.jpg"></div>
+        <div class="item"><img src="img\profile\Mrr Nunia.jpg"></div>
+    </div>
+    
+    <link rel="stylesheet" type="text/css" href="owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="owl.theme.default.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="owl.carousel.js"></script>
+
+    <script type="text/javascript">
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 5,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 1000,
+            autoplayHoverPause: true
+        });
+        $('.play').on('click', function () {
+            owl.trigger('play.owl.autoplay', [1000])
+        })
+        $('.stop').on('click', function () {
+            owl.trigger('stop.owl.autoplay')
+        })
+    </script>
+
+
+
+
+
+</body>
+
+</html>

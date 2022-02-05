@@ -1,0 +1,256 @@
+/* Home Page */
+.border-color-cards{
+  background-color:aliceblue;
+  border-radius: 6px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.subheading-1 {
+  font-size: large;
+  font-weight: 500;
+  margin-left: 100px;
+}
+.cards-instant-quote {
+  background-color: #a9dff0;
+  display: inline;
+}
+.remove-underline {
+  text-decoration: none;
+  color: #696662;
+}
+.remove-underline:hover {
+  color: #696662;
+}
+.nav-dropdown-text-instant-quote {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.get-quote-here {
+  transition: transform 0.5s;
+  margin: 0 auto;
+}
+.get-quote-here:hover {
+  transform: scale(0.9);
+}
+
+/* .nav-dropdown-text-instant-quote-card{
+    display: inline;
+} */
+
+.coloumn-left-component {
+  /* margin-top: 45px;
+  margin-bottom: 45px;
+  margin-right: 45px;
+  margin-left: 200px; */
+  margin: 50px;
+  font-size: 17px;
+}
+
+/* .resize-container-2-m{
+  padding: 10%;
+}
+.resize-container-2-m{
+  margin: 20%;
+} */
+
+.small-text-orange {
+  color: #fb8501;
+  font-size: small;
+}
+
+.left-coloumn-card {
+  border-radius: 30px 0px 0px 30px;
+  background-color: #f1f5f7;
+}
+.right-coloumn-card {
+  background-color: #fb8501;
+  color: white;
+  border-radius: 0px 30px 30px 0px;
+}
+.simple-card-text {
+  font-size: larger;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.simple-card-small-text {
+  font-size: 10px;
+  margin-left: 10px;
+}
+.custom-form .form-control {
+  padding: 0.8rem 0.75rem !important;
+}
+.table-custom {
+  margin: 5%;
+  /* border: 1px solid black; */
+}
+td {
+  width: 0% !important;
+  margin: 0% !important;
+  text-align: center;
+}
+.footer-custom {
+  background-color: #ebebeb;
+}
+
+/* Contact us Page */
+
+.form-control:focus{
+  outline: none !important;
+  box-shadow: 0 0 0 .12rem #fb8501;
+  border: none;
+  transition: 0.7s;
+}
+
+.custom-form-contact {
+  border: 1px solid rgb(207, 203, 203);
+  padding: 30px;
+  border-radius: 5px;
+}
+.contact-page-heading {
+  font-size: 60px;
+  color: #fb8501;
+}
+.contact-page-subheadig {
+  font-size: 20px;
+}
+.custom-icon-container {
+  margin: 40px;
+  padding-top: 30px;
+  /* border: 1px solid rgb(73, 133, 201); */
+}
+.custom-icon-container:hover {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+.contact-icons-section {
+  margin: 30px;
+}
+/*Insert this style in your css*/
+.fontAwesome {
+  font-family: Helvetica, 'FontAwesome', sans-serif;
+}
+/* Contact us Ends */
+
+/* FAQ */
+.faq-heading-1 {
+  color: #fb8501;
+  font-size: 20px;
+  font-weight: 500;
+}
+.dot-profile-icon {
+  height: 45px;
+  width: 45px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* FAQ Ends */
+
+/* About us  */
+.about-page-heading {
+  font-size: 60px;
+  color: #ffffff;
+  background-color: #fb8501;
+  padding-top: 130px;
+  padding-bottom: 50px;
+}
+.arrow-over-container {
+  position: relative;
+  bottom: 50px;
+}
+.subheading-text-1 {
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 110px;
+}
+.about-align-1 {
+  text-align: left;
+  margin-left: 130px;
+  margin-right: 130px;
+  font-size: 20px;
+}
+.about-align-2 {
+  text-align: center;
+  color: #fb8501;
+}
+.subheading-2 {
+  color: #fb8501;
+  font-weight: 500;
+  font-size: 20px;
+}
+.subheading-2x {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* About us Ends */
+
+/* Media Query (Home) */
+@media only screen and (max-width: 1400px) {
+  .custom-footer {
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .coloumn-left-component {
+    margin: 0%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .resize-container-2-m {
+    padding: 0%;
+  }
+  .resize-container-2-m {
+    margin: 0%;
+  }
+  .custom-footer {
+    width: 110px;
+    font-size: 1px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .resize-container {
+    max-width: 800px;
+  }
+  .about-page-heading{
+    font-size: 50px;
+  }
+  .subheading-3, .subheading-4{
+    margin: 7%;
+  }
+  .question-text{
+    font-size: 20px !important;
+  }
+  .custom-icon-container{
+    margin: 0%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .resize-container {
+    max-width: 800px;
+  }
+  .right-coloumn-card {
+    margin-top: 30px;
+    border-radius: 0%;
+  }
+  .about-page-heading{
+    font-size: 30px;
+  }
+  .subheading-text-1{
+    font-size: 18px;
+    margin: 3%;
+  }
+}
+@media only screen and (max-width: 452px) {
+  .custom-footer {
+    width: 70px;
+    font-size: 2px;
+  }
+  .custom-footer-heading {
+    font-size: 17px;
+  }
+  .custom-footer-deatil {
+    font-size: 9px;
+  }
+}
